@@ -21,7 +21,7 @@ pipelineDemo([
     containerPush       : [cmd: "make push"],
 
     // TODO(ajm): how to get image hashes to scan?
-    containerScan       : false,
+    containerScan       : true,
   ],
 ])
 
