@@ -13,7 +13,6 @@
 
 pipelineDemo([
   env: [
-    imageTagOverride    : "controlplane/docker-hey:latest",
   ],
   stages: [
     gitSecrets          : true,
