@@ -17,8 +17,8 @@ pipelineDemo([
     gitCommitConformance: true,
     containerLint       : true,
     // TODO(ajm) escaping vuln
-    containerBuild      : [cmd: "make build"],
-    containerPush       : [cmd: "make push"],
+    containerBuild      : true,
+    containerPush       : false,
 
     // TODO(ajm): how to get image hashes to scan?
     containerScan       : true,
