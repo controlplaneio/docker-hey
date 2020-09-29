@@ -11,7 +11,7 @@
 //             remote: 'https://github.com/controlplaneio/jenkins-shared-library.git'
 //           ])
 
-pipelineDemo([
+pipelineImageBuild([
   env: [
     imageTagOverride    : "controlplane/docker-hey:latest",
   ],
